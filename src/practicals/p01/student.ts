@@ -3,5 +3,5 @@ export class Student {
     lastname? : string ;
     
     printName(){
-        console.log(this.firstname,this.lastname);
+        console.log(this.firstname,"",this.lastname);
     }}
