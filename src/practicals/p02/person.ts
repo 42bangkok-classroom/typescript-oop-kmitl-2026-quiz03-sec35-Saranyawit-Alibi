@@ -2,7 +2,7 @@ export class Person {
     firstname? : string;
     lastname? : string;
     
-    private age? : number
+    private age : number =0
     static COUNTRY : string ="AMERICA"
     setAge(age : number){
         this.age = age;
